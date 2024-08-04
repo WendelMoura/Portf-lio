@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: #e2aa44;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+header{
+    padding: 10px 10px;
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: groove;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+p{
+    color: white;
+}
+
+.esquerdo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.esquerdo img{
+    border-radius: 25%;
+    width: 60px;
+    margin-right: 10px;
+}
+
+header li{
+    display: inline;
+    padding: 0 15px;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header li a:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.699);
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 7px 15px;
+    color: goldenrod;
+    transition: 0.5s;
+    border-style: double;
+}
+
+.Projects{
+    height: auto;
+}
+
+.Personal{
+    background-color: #353535;
+    height: auto;
+}
+
+.Contact{
+    background-color: #676767;
+    height: 200px;
+}
+
+.Projects article{
+    display: flex;
+    align-items: center;
+}
+article video{
+    height: 350px ;
+    margin: 40px 20px;
+}
+
+.projeto1 article p{
+    padding: 20px 70px;
+    border-style: dotted;
+    align-items: center;
+    display: flex;
+    border-radius: 25%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+}
+
+.Projects{
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Projects a{
+    font-family: "Alfa Slab One", serif;
+    text-decoration: none;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    background-color: rgb(109, 11, 201);
+    color: white;
+}
+.Projects a:hover{
+    color: goldenrod;
+    padding: 10px 15px;
+    background-color: crimson;
+    font-size: 35px;
+    transition: 0.5s ease;
+}
+
+.projeto1 article p:hover{
+    border-style: solid;
+    border-color: #e2aa44;
+    transition: 0.5s;
+    background-color: darkslateblue;
+}
+
+.projeto2 img{
+    margin: 20px 20px;
+}
+
+.projeto2 p{
+    padding: 20px 70px;
+    border-style: dotted;
+    align-items: center;
+    display: flex;
+    border-radius: 25%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+}
+
+.projeto2 article p:hover{
+    border-style: solid;
+    border-color: #e2aa44;
+    transition: 0.5s;
+    background-color: darkslateblue;
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+h2{
+    margin-top: 15px;
+    margin-bottom: 15px ;
+    font-size: 30px;
+    color: chartreuse;
+    font-family: "Pixelify Sans", sans-serif;
+    border-color: chartreuse;
+    border-style: solid;
+    padding: 10px 10px;
+}
+
+.Personal article img{
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+.Personal article{
+    display: flex;
+    text-align: justify;
+}
+
+.Personal li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    color: rgb(212, 210, 210);
+    font-size: 20px;
+    margin: 10px 25px;
+    padding: 15px 10px;
+    border-style: solid;
+    height: fit-content;
+    text-align: center;
+}
+
+.Personal li:hover{
+    border-color: #e2aa44;
+    transition: 0.5s;
+    border-radius: 35px;
+    background-color: darkslateblue;
+}
+
+.Personal li a{
+    color: gold;
+    text-decoration: none;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+}
+
+.Contact{
+    height: auto;
+    width: 100%;
+}
+
+.Contact .contatos{
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.Contact .contatos section{
+    text-align: center;
+    width: 30%;
+}
+
+.Contact .contatos form input,label,textarea{
+    font-family: "Pixelify Sans", sans-serif;
+    height: 10px;
+    width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+.Contact .contatos section article a{
+    text-decoration: none;
+    color: rgb(6, 6, 94);
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    padding: 10x 0px;
+}
+
+button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+button:hover{
+    background-color: darkslateblue;
+    padding: 8px 24px;
+    width: 50%;
+    transition: 0.5s;
+}
+
+footer{
+    background-color: darkslategray;
+    font-size: 15px;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    padding-top: 16px;
+    padding-left: 15px;
+    font-style: italic;
+}
+
+footer li{
+    text-align: center;
+    padding-right: 10px;
+
+}
+
+.Contact article a{
+    padding-right: 5px;
+    align-items: center;
+    height: 400px;
+    margin-top: 200px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Pixelify+Sans&display=swap" rel="stylesheet"><body>
+    <header>
+        <div class="esquerdo">
+            <img src=".\media\logo.svg" alt="WL">
+            <h1>Minha página</h1>
+        </div>
+        <ul>
+            <li><a href="#Projects">Projetos</a></li>
+            <li><a href="#Me">Sobre mim</a></li>
+            <li><a href="#Contact">Fale comigo</a></li>
+        </ul>
+    </header>
+    <div class="Projects" id="Projects">
+        <div class="titulos">
+            <H2>MEUS PROJETOS</H2>
+        </div>
+        <div class="projeto1">
+            <article>
+                <video src=".\media\login page video.mkv" controls muted></video>
+                <p>
+                    Página de login desenvolvida de modo independente usando HTML e CSS, integrando esta página com meus links pessoais. <br/> <br/>
+                    Foram usados elementos de CSS para estilização como Hover, Paddings, Transições, entre outros para deixar a página com um aspecto mais amigável e fluido para o usuário.
+                </p>
+            </article>
+            <a href="https://login-page-zeta-gilt.vercel.app">Ir para o projeto</a>
+        </div>
+        <br/>
+        <hr/>
+        <div class="projeto2">
+            <article>
+                <video src=".\media\games store video.mkv" controls muted></video>
+                <p>Página inicial de uma loja fictícia de jogos da cidade de Florianópolis, desenvolvida usando HTML e CSS. <br/><br/>
+                    O cabeçalho tem o nome "Floripa Games" e um menu de navegação. A seção "Sobre a loja" conta a história da loja fundada em 2005 em Florianópolis, com uma imagem da fachada e logotipos de marcas de games. A seção de contato inclui um formulário, links para redes sociais e um mapa do endereço. <br/>
+                </p>
+            </article>
+                <a href="https://loja-de-jogos-blond.vercel.app">Ir para o projeto</a>
+        </div>
+        <br/>
+        <hr/>
+    </div>
+    <div class="Personal" id="Me">
+        <div class="titulos">
+            <h2>SOBRE MIM</h2>
+        </div>
+        <article>
+            <img src=".\media\wendel.jpeg" alt="Foto do autor">
+            <ul>
+                <li>Meu nome é Wendel Leandro E tenho 24 anos. Sou físico formado pela Universidade Federal do Pará e estou cursando o mestrado em Física pela Universidade Federal de Santa Catarina. <br/>
+                    Comececei a estudar programação por conta própria e descobri ter uma paixão a qual eu desconhecia por esta área.<br/>
+                    Atualmente trabalho como professor de Física e programação, especificamente com Python.</li>
+                <li>Estou aprendendo a utilizar algumas linguagens de programação como HTML, CSS, Pyhton, dentre outros. Acredito que a física contribui bastante com minha constante evolução dentro da área de programação, haja vista que a resolução de problemas e o raciocínio lógico são coisas extremamente presentes em todo o pensamento físico.</li>
+                <li>Pretendo constantemente atualizar esta página, bem como meu <a href="https://github.com/WendelMoura">Github</a> com novos projetos e novas tecnologias, conforme for aprendendo e evoluindo dentro da programação. Confesso estar muito animado com tantas possibilidades!</li>
+            </ul>
+        </article>
+    </div>
+    <div class="Contact" id="Contact">
+        <div class="titulos">
+            <h2>FALE COMIGO</h2>
+        </div>
+        <div class="contatos">
+            <section>
+                <h3>O que você precisa?</h3>
+                <form>
+                    <label for="nome">Seu nome:</label>
+                    <input id="nome" type="text" required><br/>
+                    <label for="e-mail">Seu e-mail:</label>
+                    <input id="e-mail" type="email" required><br/>
+                    <label for="phone"> Contato:</label>
+                    <input id="phone" type="tel" required><br/>
+                    <label for="message">Mensagem:</label> <br/>
+                    <textarea name="Mensgem" resize="none" id="message" required></textarea><br/>
+                    <button type="submit">
+                        Enviar
+                    </button> 
+                    <button type="reset">
+                        Limpar
+                    </button>  
+                </form>
+            </section>
+            <section>
+                <img src=".\media\giffinal.gif" alt="Gif dev">
+            </section>
+            <section>
+                <h3>Me acompanhe nas redes sociais:</h2>
+                <article>
+                    <a id="Insta" href="https://www.instagram.com/wendelleandroo">Instagram</a><a id="Insta" href="https://www.instagram.com/wendelleandroo"><img  id="Insta" src=".\media\instagram-logo.png" alt="Logo do Instagram"></a> <br/>
+                    <a id="Github" href="https://github.com/WendelMoura">Github</a><a id="Github" href="https://github.com/WendelMoura"><img  id="Insta" src=".\media\github-logo.png" alt="Logo do Github"></a><br/>
+                    <a id="Linkedin" href="https://www.linkedin.com/in/wendelleandro/">Linkedin</a><a id="Linkedin" href="https://www.linkedin.com/in/wendelleandro/"><img  id="Linkedin" src=".\media\linkedin-logo.png" alt="Logo do Linkedin"></a>
+                </article>
+            </section>
+        </div>
+    </div>
+</body>
+<footer>
+    <ul>
+        <li>Feito por Wendel Leandro - Agosto de 2024</li>
+        <li><a href="https://www.instagram.com/wendelleandroo/"><img src=".\media\instagram-logo.png" alt="logo do instagram">ㅤ<a href="https://github.com/WendelMoura"><img src=".\media\github-logo.png" alt="logo do github"></li>
+    </ul>
+</footer>
+</html>
